@@ -1,0 +1,59 @@
+
+:root {
+  --font-color-main: #414141;
+  --font-color-subtitle: #7D7D7D;
+  --font-color-links: #CA5E10;
+  --font-size-title: 6rem;
+  --font-size-subtitle: 2.25rem;
+  --font-size-lead-paragraph: 1.3125rem;
+  --font-size-body: 1.125rem;
+  --font-family-title: 'Cinzel', serif;
+  --font-family-body: 'PT Serif', serif;
+  --font-weight-title: 900;
+  --font-weight-body: 400;
+}
+
+
+body {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  color: var(--font-color-main);
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-title);
+  margin: 4rem 2rem 0 2rem;
+  line-height: 0.9;
+}
+
+ a {
+  color: var(--font-color-links);
+ }
+
+ header {
+  text-align: center;
+  margin: 6rem auto;
+  padding: 0 2rem;
+  max-width: 75rem;
+ }
+
+.subtitle {
+  font-size: var(--font-size-subtitle);
+  color: var(--font-color-subtitle);
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: var(--font-size-lead-paragraph);
+}
+
+.container {
+  width: 90%;
+  max-width: 39rem;
+  margin: 0 auto;
+}
